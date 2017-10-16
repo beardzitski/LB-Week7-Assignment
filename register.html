@@ -28,27 +28,34 @@
 		<section id="main">
 			<div class="container">
 				<section id="contact">
-					<form class="" action="registered.html" method="get">
-						<label for="">First Name:</label>
-							<input type="text" name="firstname" value=""><br />
-						<label for="">Last Name:</label>
-							<input type="text" name="lastname" value=""><br />
-						<label for="">Email:</label>
-							<input type="email" name="email" value=""><br />
-						<label for="">Birthday:</label>
-							<input type="date" name="bday" value=""><br />
-					  <label for="">What benefits of Relaxr are you interested in? Select all that apply:</label><br />
+					<h2>Register with Relaxr!</h2><br />
+					<form class="registernow" action="registered.html" method="get"><br />
+						<section id="personal-info"></section>
+						<label for="firstname">First Name</label><br />
+							<input class="form-input" type="text" name="firstname"><br />
+						<label for="lastname">Last Name</label><br />
+							<input type="text" name="lastname"><br />
+						<label for="email">Email</label><br />
+							<input type="email" name="email"><br />
+						<label for="bday">Birthday</label><br />
+							<input type="date" name="bday"><br /><br />
+					  <label for="benefit1 benefit2 benefit3 benefit4">What benefits of Relaxr are you interested in? Select all that apply</label><br />
 							<input type="checkbox" name="benefit1" value="Scheduling">Schedule meetings for you<br />
 							<input type="checkbox" name="benefit2" value="Excel Automation">Excel automation to complete your work for you<br />
 							<input type="checkbox" name="benefit3" value="Email Responding">Responds to emails on your behalf<br />
 							<input type="checkbox" name="benefit4" value="AI Technology">Does all your work for you with our revolutionary AI technology<br />
-						<label for="">How did you hear about Relaxr?</label>
-							<textarea name="referral" rows="8" cols="80"></textarea>
+						<label for="referral">How did you hear about Relaxr?</label><br />
+							<textarea name="referral" rows="8" cols="80"></textarea><br />
+						<label for="username">Create New Username</label><br />
+							<input type="text" name="username"><br />
+						<label for="password">Password</label><br />
+							<input type="password" name="password"><br />
 						<input type="submit" value="Register Now!">
 					</form>
 				</section>
 			</div>
 		</section>
+		<br />
 
 		<footer>
 			<h4 class="logo">Relaxr</h4>

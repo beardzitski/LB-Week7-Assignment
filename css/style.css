@@ -369,4 +369,26 @@ footer p {
   }
 }
 
+.registernow {
+  width: 100%;
+  background-color: lightgrey;
+  padding: 30px;
 
+}
+
+.registernow label {
+
+}
+
+.registernow input {
+  border: 1px solid #ccc;
+  margin: 12px 0;
+  padding: 18px 20px;;
+  border-radius: 4px;
+  box-sizing: border-box;
+  width: 100%;
+}
+
+.registernow checkbox {
+  width: 0%;
+}
